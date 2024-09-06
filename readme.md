@@ -1,5 +1,4 @@
-# Hoe de Game of Life Python-editie te downloaden
-
+# Hoe je de Python-editie van de Game of Life kunt downloaden"
 
 1. **Download het bestand:**
    - Als je het bestand nog niet hebt gedownload, haal het dan op van de aangegeven  repository.
@@ -11,4 +10,3 @@
    - Dubbelklik op `main.exe` om het uit te voeren. Dit zal de applicatie starten.
  
     Dat is alles! Je hebt het `Game of life `succesvol gedownload en uitgevoerd.
-s
