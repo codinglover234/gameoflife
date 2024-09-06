@@ -1,0 +1,206 @@
+/*index html css*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, black, white);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.top-bar {
+    background-color: transparent;
+    text-align: right;
+    padding: 10px 50px;
+    font-size: 0.9rem;
+    color: #020202;
+}
+
+.top-bar a {
+    color: #000000;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.top-bar a:hover {
+    color: rgb(153, 148, 148);
+}
+/*deze container is een navbar voor alle paginas*/
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 5px 20px; 
+    color: rgb(17, 5, 5);
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0);
+}
+
+.container a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem; 
+    margin: 0 20px; 
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.container a:hover {
+    text-shadow: 0px 0px 10px white;
+}
+
+.idk {
+    height: auto;
+    width: auto;
+    max-width: 80px; 
+    margin-right: 20px; 
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 130px;
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 0px 0px 20px white;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #ccc;
+    width: 1000px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #242424;
+}
+
+@media (max-width: 768px) {
+    .top-bar {
+        padding: 10px 20px;
+    }
+
+    .container {
+        padding: 5px 15px; 
+        flex-direction: column;
+        justify-content: center; 
+    }
+
+    .idk {
+        width: 50%;
+        margin-right: 0; 
+    }
+
+    .container a {
+        font-size: 1rem;
+        margin: 10px 0; 
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .idk {
+        width: 75%;
+        margin-right: 0; 
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/*about.html *-*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: white;
+}
+
+
+.unique-link {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.unique-about-main-content {
+    padding: 2em;
+    text-align: center;
+}
+
+.unique-about-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+.unique-table-row {
+    border-bottom: 1px solid white;
+}
+
+.unique-section-title {
+    font-size: 1.8em;
+    color: white;
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+
+.unique-section-content {
+    padding: 1em;
+    color: white;
+    text-align: left;
+}
+
+.unique-about-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.unique-list-item {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
